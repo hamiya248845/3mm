@@ -1,0 +1,12 @@
+Microservices describes the architectural process of building a distributed application from separately deployable services that perform specific business functions and communicate over web interfaces.
+DevOps teams enclose individual pieces of functionality in microservices and build larger systems by combining the microservices like building blocks.
+
+Microservices apply an example of the open/closed principle:
+
+They're open for extension (using the interfaces they expose)
+They're closed for modification (each is implemented and versioned independently)
+Microservices provide many benefits over monolithic architectures:
+
+They can remove single points of failure (SPOFs) by ensuring issues in one service don't crash or affect other parts of an application.
+Individual microservices can be scaled out independently to provide extra availability and capacity.
+DevOps teams can extend functionality by adding new microservices without unnecessarily affecting other parts of the application.
